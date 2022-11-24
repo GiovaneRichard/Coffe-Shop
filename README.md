@@ -3,4 +3,4 @@ Estudo de website Coffe Shop utilizando HTML, CSS, JAVASCRIPT
 
 Preview Project:
 
-https://giovanerichard.github.io/coffee-shop/
+https://giovanerichard.github.io/coffee-shop
