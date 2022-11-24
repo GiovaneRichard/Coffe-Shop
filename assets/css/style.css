@@ -507,6 +507,57 @@ section {
 /*────────────────────────*\
 * MEDIA CARE
 \*────────────────────────*/
+.footer {
+    background: var(--bg);
+    text-align: center;
+}
+.footer .share {
+    padding: 1rem 0;
+}
+.footer .share a {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border: var(--border);
+    border-radius: 50%;
+    margin: .3rem;
+}
+.footer .share a:hover {
+    background: var(--main-color);
+}
+.footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a {
+    padding: .7rem 2rem;
+    color: #fff;
+    border: var(--border);
+    font-size: 2rem;
+}
+.footer .links a:hover {
+    background: var(--main-color);
+}
+.footer .credit {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+}
+.footer .credit span { 
+    color: var(--main-color);
+}
+
+
+
+/*────────────────────────*\
+* MEDIA CARE
+\*────────────────────────*/
 @media (max-width: 991px) {
     html {
         font-size: 55%;
